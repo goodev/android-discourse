@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="custom_changelog" type="raw">@raw/changelog_zh</item>
+</resources>

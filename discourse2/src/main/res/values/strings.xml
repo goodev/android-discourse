@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="app_version_code" type="integer">10</item>
+
+    <string name="app_name">Discourse</string>
+    <string name="app_version">0.3 β</string>
+    <string name="press_again_exit">Press BACK once more to exit</string>
+    <string name="action_add">Create Topic</string>
+    <string name="create_topic_not_login">You need login to create topic</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_faq">About &amp; FAQ</string>
+    <string name="action_add_website">Add site</string>
+    <string name="title_section1">Latest</string>
+    <string name="title_section2">Categories</string>
+    <string name="title_section3">New(%d)</string>
+    <string name="title_section4">Unread(%d)</string>
+    <string name="title_section5">Read</string>
+    <string name="title_section6">Favorited</string>
+    <string name="title_latest">Latest</string>
+    <string name="title_category">Category:%s</string>
+    <string name="title_categories">Categories</string>
+    <string name="title_new">New</string>
+    <string name="title_unread">Unread</string>
+    <string name="title_read">Read</string>
+    <string name="title_favorited">Favorited</string>
+    <string name="user_icon_des">User avatar</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="not_login">No user</string>
+    <string name="test">&lt;b>test&lt;/b></string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="hello_world">
+<![CDATA[
+    ]]>
+    </string>
+    <string name="add_site_url_is_empty">"Site url can't be empty!"</string>
+    <string name="add_site_is_exist">"%s is exist!"</string>
+    <string name="add_site_url_error">"%s is not a Discourse site or Discourse version is to low!"</string>
+    <string name="check_url_dialog_msg">Checking &#8230;</string>
+    <string name="add_site_title">Add a Discourse site</string>
+    <string name="add_user_title">Add login info</string>
+    <string name="delete_site_msg" formatted="false">
+<![CDATA[
+Delete site <b>%s</b>.<br/> Confirm ?
+]]>
+    </string>
+    <string name="remove_exist_user_msg" formatted="false">
+<![CDATA[
+        Already login site <b>%s</b>, Add a new user will remove exist user info.<br/> Confirm ?
+]]>
+    </string>
+    <string name="remove_exist_user">Remove exist user</string>
+    <string name="name_and_password_is_error">The username or password you entered is incorrect!</string>
+    <string name="name_and_password_is_empty">Username or Password is empty!</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="site_name">Site name</string>
+    <string name="site_url">Site url </string>
+    <string name="login_name">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_password">Remember password &amp; Auto login</string>
+    <string name="delete_site">Delete this site</string>
+    <string name="add_user">Add Account</string>
+    <string name="no_discourse_site_tips">"No discourse site, Click the right corner '+' menu to add."</string>
+    <string name="site_settings_label">Discourse site</string>
+    <string name="no_site_radio_btn">No Discourse site, Click to add</string>
+    <string name="radio_btn_text" formatted="false">%s &lt;br/>&lt;small>%s&lt;/small></string>
+    <string name="loading_category">Loading categories &#8230; </string>
+    <string name="drawer_categories_title">Categories </string>
+    <string name="drawer_nav_header">Navigation </string>
+    <string name="topic_participant">Participant </string>
+    <string name="empty_topics">No topics found.</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="retry">Retry</string>
+    <string name="stream_error">Couldn\'t load topics.</string>
+    <string name="post_time_in_day">%dd</string>
+    <string name="post_time_in_hour">%dh</string>
+    <string name="post_time_in_min">%dm</string>
+    <string name="post_time_in_sec">&lt;1m</string>
+    <string name="post_name_and_title" formatted="false">"%s\n%s"</string>
+    <string name="participant_popup_text" formatted="false">%s - %s</string>
+    <string name="category_view_all" formatted="false">view all %d&#8230;</string>
+    <string name="category_topics_count" formatted="false">%d year  %d month  %d week</string>
+    <string name="title_activity_category">Category: %s</string>
+    <string name="title_activity_topic">Loading topic&#8230;</string>
+    <string name="overflow_menu">More action&#8230;</string>
+    <string name="menu_flag">Flag</string>
+    <string name="menu_bookmark">Bookmark</string>
+    <string name="menu_links">Links(%d)</string>
+    <string name="menu_post_delete">Delete</string>
+    <string name="menu_replay_new">Reply as new Topic</string>
+    <string name="menu_poster_count">Participants(%d)</string>
+    <string name="flag_des">flag this post for attention or send a notification about it</string>
+    <string name="share_post_des">share a link to this post</string>
+    <string name="bookmark_des">bookmark this post</string>
+    <string name="reply_as_new_topic">Reply as new Topic</string>
+    <string name="like_this_post">like this post</string>
+    <string name="action_best_of">Best Of view</string>
+    <string name="action_star">Add/Remove this topic to/from your favorites list</string>
+    <string name="action_reply">Reply this topic</string>
+    <string name="action_recover">"Recover this post"</string>
+    <string name="action_post_edit">"Edit this post"</string>
+    <string name="action_edit_topic">"Edit this topis's title and category"</string>
+    <string name="action_reply_as_new">Reply as new Topic</string>
+    <string name="like_content">%d people liked this.</string>
+    <string name="title_activity_user">Profile - %s </string>
+    <string name="title_activity_photos">Images</string>
+    <string name="update_notification_level">Change notification status &#8230;</string>
+    <string name="add_star_failed">Add to favorite failed, please try again!</string>
+    <string name="remove_star_failed">Remove from favorite failed, please try again!</string>
+    <string name="change_notifi_level_failed"> Operation failed, please try again!</string>
+    <string name="action_share">Share</string>
+    <string name="action_send">Create Topic</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_preview">Preview</string>
+    <string name="action_set_as">Set picture as</string>
+    <string name="action_download">Download</string>
+    <string name="share_dialog_title">Sharing &#8230;</string>
+    <string name="share_failed">Share failed, please try again!</string>
+    <string name="downlaod">Downloading&#8230;</string>
+    <string name="set_as">Set as&#8230;</string>
+    <string name="choose_folder">Choose folder </string>
+    <string name="download_failed">Download failed, please try again!</string>
+    <string name="download_success">Download photo success!</string>
+    <string name="action_refresh">Request data&#8230;</string>
+    <string name="post_links_title">Post links</string>
+    <string name="title_activity_reply_topic">Reply a topic</string>
+    <string name="title_activity_reply_post">Reply a post</string>
+    <string name="title_activity_edit_post">Edit a post</string>
+    <string name="title_activity_editor">Create a new Topic</string>
+    <string name="e_title_hint">Type your title here. What is this discussion about in one brief sentence?</string>
+    <string name="e_quote_post_cd">Quote whole post</string>
+    <string name="e_bold_cd">Strong</string>
+    <string name="e_italic_cd">Emphasis</string>
+    <string name="e_link_cd">Hyperlink</string>
+    <string name="e_quote_cd">Blockquote</string>
+    <string name="e_code_cd">Code Sample</string>
+    <string name="e_upload_cd">Upload</string>
+    <string name="e_list_ol_cd">Numbered List</string>
+    <string name="e_list_ul_cd">Bulleted List</string>
+    <string name="e_header_cd">Heading</string>
+    <string name="e_divider_cd">Horizontal Rule</string>
+    <string name="e_content_hint">Type here. Use Markdown to format. Drag or paste an image to upload it.</string>
+    <string name="e_title_length_error">Title must be at least 5 characters long.</string>
+    <string name="e_conent_length_error">Post must be at least 5 characters long.</string>
+    <string name="saving_title">Saving &#8230;</string>
+    <string name="sending_post">Publishing &#8230;</string>
+    <string name="not_impl_tips">This features will be implemented in the future versions </string>
+    <string name="nocateogry">(no category)</string>
+    <string name="editor_category_count"> X %d</string>
+    <string name="reply_topic_title">Reply to %s:</string>
+    <string name="reply_post_title" formatted="false">Replying to post %d by %s:</string>
+    <string name="edit_post_title" formatted="false">Editing post %d by %s:</string>
+    <string name="edit_topic_title">Edit topic title and category</string>
+    <string name="save">Save</string>
+    <string name="error">Something is wrong, please try again!</string>
+    <string name="bookmark_add_success">Add Bookmark successful</string>
+    <string name="bookmark_add_failure">Add Bookmark failure</string>
+    <string name="bookmark_remove_success">Remove Bookmark successful</string>
+    <string name="bookmark_remove_failure">Remove Bookmark failure</string>
+    <string name="post_delete_content">(post withdrawn by author, will be automatically deleted in 24 hours unless flagged)</string>
+    <string name="post_delete_success">Post deleted</string>
+    <string name="post_delete_failure">Delete post failure</string>
+    <string name="post_recover_success">Post recovered</string>
+    <string name="post_recover_failure">Recover post failure</string>
+    <string name="saving_post_failure">Saving post failure,please try again!</string>
+    <string name="get_post_content_failure">Get post content failure</string>
+    <string name="loading_post_text">Loading post conent &#8230;</string>
+    <string name="discard_post_msg">Discard this post?</string>
+    <string name="title_activity_help">About &amp; FAQ</string>
+    <string name="actions_edits">Edits (%d)</string>
+    <string name="actions_bookmarks">Bookmarks (%d)</string>
+    <string name="actions_likes">Favorites (%d)</string>
+    <string name="actions_likes_received">Likes Received (%d)</string>
+    <string name="actions_likes_given">Likes Given (%d)</string>
+    <string name="actions_replies">Replies (%d)</string>
+    <string name="actions_posts">Posts (%d)</string>
+    <string name="actions_topics">Topics (%d)</string>
+    <string name="actions_all">All (%d)</string>
+    <string name="activities">Activities</string>
+    <string name="empty_bio">"%s hasn't entered anything in the About Me field of their profile yet"</string>
+    <string name="website">Web Site:　　 %s</string>
+    <string name="create_at">Created At:　　 %s</string>
+    <string name="last_post">Last Post:　　 %s</string>
+    <string name="last_seen">Last Seen:　　 %s</string>
+    <string name="trust_level">Trust Level:　 %s</string>
+    <string name="user_actions_you">You</string>
+    <string name="uc_reply"> replied to </string>
+    <string name="uc_the_topic">the topic</string>
+    <string name="uc_posted">posted</string>
+    <string name="uc_posted_by">Posted by </string>
+    <string name="uc_reply_number"># %d</string>
+    <string name="title_created_by">Posted by %s</string>
+    <string name="social_login_tips">Login with Other(Google、Twitter&#8230;)?</string>
+    <string name="title_get_password">Get Login Username and Password</string>
+    <string name="action_changelog">Change Log</string>
+    <string name="create_post_error">Create post failed, Try increase the title or content characters !</string>
+    <string name="add_img_title">Add an image</string>
+    <string name="add_img_alt_text_hint">Enter alt text </string>
+    <string name="add_img_hint">"http://example.com/1.png \"optional title\"" </string>
+    <string name="add_link_title">Insert Hyperlink</string>
+    <string name="add_link_des_hint">Enter link description </string>
+    <string name="add_link_hint">"http://example.com/1.png \"optional title\"" </string>
+    <string name="reboot_error">Something is wrong, please restart this app!</string>
+    <string name="action_refresh_menu">Refresh</string>
+    <string name="private_msg_title">Start a private message</string>
+    <string name="action_private_msg">Private Message</string>
+    <string name="private_msg">Messages</string>
+    <string name="all_private_msg">All</string>
+    <string name="mine_private_msg">Mine</string>
+    <string name="unread_private_msg">Unread</string>
+    <string name="send_private_msg_title" formatted="false">To : %s</string>
+    <string name="suggested_topics">Suggested Topics</string>
+    <string name="action_invite_reply">Invite Friends to Reply</string>
+    <string name="email_hint">Email address</string>
+    <string name="invite">Invite</string>
+    <string name="invite_success">"Thanks! We mailed out an invitation to %s. We'll let you know when they redeem your invitation. Check the invitations tab on your user page to keep track of who you've invited."</string>
+    <string name="invite_error">"Sorry, we couldn't invite that person. Perhaps they are already a user?"</string>
+    <string name="invalid_email">Email address not valid</string>
+    <string name="invite_reply_msg">We\'ll send your friend a brief email allowing them to immediately reply to this topic by clicking a link, no login required.</string>
+    <string name="title_activity_search">Search</string>
+    <string name="action_search">Search</string>
+    <string name="no_search_result">No search result.</string>
+    <string name="search_hint">Input search terms</string>
+    <string name="seaching">Searching&#8230;</string>
+    <string name="users">Users</string>
+    <string name="topics">Topics</string>
+
+</resources>

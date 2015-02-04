@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="clickableItemBackground" format="reference"/>
+    <attr name="activatableItemBackground" format="reference"/>
+    <attr name="emptyText" format="reference"/>
+
+    <declare-styleable name="BezelImageView">
+        <attr name="maskDrawable" format="reference"/>
+        <attr name="borderDrawable" format="reference"/>
+        <attr name="desaturateOnPress" format="boolean"/>
+    </declare-styleable>
+</resources>

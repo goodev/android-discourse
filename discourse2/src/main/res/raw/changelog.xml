@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+
+    <!-- This is Dashclock changelog (https://code.google.com/p/dashclock/wiki/Changelog), used only for test. -->
+
+    <!--
+            <changelogtext>[b]New![/b] Option to hide the settings button when the widget is
+                expanded; if you enable this, you can always add a "Configure DashClock Widget" shortcut
+                to your home screen
+            </changelogtext>
+     -->
+    <changelogversion changeDate="Nov 1, 2013" versionName="0.2 β">
+        <changelogtext>[b]New![/b] Search topics and users!</changelogtext>
+        <changelogtext>[b]New![/b] Now can invite friends to reply!</changelogtext>
+        <changelogtext>Fix bugs</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="Oct 28, 2013" versionName="0.1.7 α">
+        <changelogtext>[b]New![/b] Now can send and read Private Messages!</changelogtext>
+        <changelogtext>Fix bugs</changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="Oct 26, 2013" versionName="0.1.4 α">
+        <changelogtext>[b]New![/b] Add suggested topics</changelogtext>
+        <changelogtext>[b]New![/b] Add unseen topic mark</changelogtext>
+        <changelogtext>[b]New![/b] Mark the unseen topic to seen</changelogtext>
+        <changelogtext>[b]New![/b] Add refresh topics menu</changelogtext>
+        <changelogtext>Fix bugs</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="Oct 25, 2013" versionName="0.1.2 α">
+        <changelogtext>Improve post view.</changelogtext>
+        <changelogtext>Fix show pictures bug.</changelogtext>
+        <changelogtext>[b]New![/b] Add picture local cache.</changelogtext>
+        <changelogtext>[b]New![/b] Browser topic's link pages in Topic links dialog .</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="Oct 18, 2013" versionName="0.1.1 α">
+        <changelogtext>[b]New![/b] Add Preview post feature.</changelogtext>
+        <changelogtext>[b]New![/b] Add "Quote whole post" feature.</changelogtext>
+        <changelogtext>[b]New![/b] Improve Markdown editor, Easier to write post.</changelogtext>
+        <changelogtext>Display write post error message.</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="Oct 16, 2013" versionName="0.1 α">
+
+        <changelogtext>Initial release.</changelogtext>
+    </changelogversion>
+
+
+</changelog>

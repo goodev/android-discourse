@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    android:id="@+id/participant"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="18dp"
+    android:layout_height="18dp"
+    android:layout_marginLeft="@dimen/avatar_margin_horizontal"
+    android:layout_marginRight="@dimen/avatar_margin_horizontal"
+    android:adjustViewBounds="false"
+    android:contentDescription="@string/topic_participant"
+    android:src="@drawable/ic_person">
+
+</ImageView>

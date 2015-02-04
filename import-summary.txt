@@ -1,0 +1,237 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From ChangeLogLibrary:
+* proguard-project.txt
+From Discourse2:
+* HtmlSpanner\
+* HtmlSpanner\net\
+* HtmlSpanner\net\nightwhistler\
+* HtmlSpanner\net\nightwhistler\htmlspanner\
+* HtmlSpanner\net\nightwhistler\htmlspanner\FontFamily.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\FontResolver.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\HtmlSpanner.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\SpanCallback.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\SpanStack.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\SystemFontResolver.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\TagNodeHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\TextUtil.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\css\
+* HtmlSpanner\net\nightwhistler\htmlspanner\css\CSSCompiler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\css\CompiledRule.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\FontHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\HeaderHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\ImageHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\LinkHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\ListItemHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\MonoSpaceHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\NewLineHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\PreHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\StyleNodeHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\StyledTextHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\SubScriptHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\SuperScriptHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\TableHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\WrappingHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\attributes\
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\attributes\AlignmentAttributeHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\attributes\BorderAttributeHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\attributes\StyleAttributeHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\handlers\attributes\WrappingStyleHandler.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\spans\
+* HtmlSpanner\net\nightwhistler\htmlspanner\spans\AlignNormalSpan.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\spans\AlignOppositeSpan.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\spans\BorderSpan.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\spans\CenterSpan.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\spans\FontFamilySpan.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\spans\ListItemSpan.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\spans\VerticalMarginSpan.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\style\
+* HtmlSpanner\net\nightwhistler\htmlspanner\style\Style.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\style\StyleCallback.java
+* HtmlSpanner\net\nightwhistler\htmlspanner\style\StyleValue.java
+* api 说明
+* api\
+* api\api 说明
+* api\get_topic_ids.json
+* api\like.json
+* api\p.json
+* api\posts.json
+* api\recover.json
+* api\similar_to.json
+* api\temp.xml
+* api\track_visit.json
+* api\track_visit_try.json
+* code\
+* code\CookieManager.java
+* ic_launcher-web.png
+* ic_logo-web.png
+* libs-src\
+* libs-src\README.txt
+* libs-src\android-support-v4-sources.jar
+* libs-src\gson-2.2.4-sources.jar
+* libs-src\jsoup-1.7.2-sources.jar
+* model\
+* model\model.ecore
+* model\model.ecorediag
+* model\readme
+* proguard-project.txt
+* todo\
+* todo\htmlcleaner-2.6.1.jar
+* todo\main
+* todo\osbcp-css-parser-1.4.jar
+From DiscourseVolley:
+* .gitignore
+* Android.mk
+* build.gradle
+* build.xml
+* custom_rules.xml
+* proguard-project.txt
+* proguard.cfg
+* tests\
+* tests\.classpath
+* tests\.project
+* tests\Android.mk
+* tests\project.properties
+From FileExplorer:
+* proguard.cfg
+From UserVoiceSDK:
+* UserVoiceSDK.iml
+* ic_launcher-web.png
+* proguard-project.txt
+From ViewPagerIndicatorLibrary:
+* dd
+* pom.xml
+From bypass:
+* META-INF\
+* META-INF\MANIFEST.MF
+* pom.xml
+From photolibrary:
+* LICENSE
+* pom.xml
+From refreshactionitemlibrary:
+* com\
+* com\readystatesoftware\
+* com\readystatesoftware\viewbadger\
+* com\readystatesoftware\viewbadger\BadgeView.java
+* ic_launcher-web.png
+* pom.xml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In ChangeLogLibrary:
+* AndroidManifest.xml => changeLogLibrary\src\main\AndroidManifest.xml
+* assets\ => changeLogLibrary\src\main\assets\
+* res\ => changeLogLibrary\src\main\res\
+* src\ => changeLogLibrary\src\main\java\
+In DiscourseVolley:
+* AndroidManifest.xml => discourseVolley\src\main\AndroidManifest.xml
+* assets\ => discourseVolley\src\main\assets\
+* res\ => discourseVolley\src\main\res\
+* src\ => discourseVolley\src\main\java\
+* tests\res\ => discourseVolley\src\androidTest\res\
+* tests\src\ => discourseVolley\src\androidTest\java\
+In FileExplorer:
+* AndroidManifest.xml => fileExplorer\src\main\AndroidManifest.xml
+* assets\ => fileExplorer\src\main\assets\
+* res\ => fileExplorer\src\main\res\
+* src\ => fileExplorer\src\main\java\
+In UserVoiceSDK:
+* AndroidManifest.xml => userVoiceSDK\src\main\AndroidManifest.xml
+* libs\commons-codec-1.8.jar => userVoiceSDK\libs\commons-codec-1.8.jar
+* libs\signpost-commonshttp4-1.2.1.2.jar => userVoiceSDK\libs\signpost-commonshttp4-1.2.1.2.jar
+* libs\signpost-core-1.2.1.2.jar => userVoiceSDK\libs\signpost-core-1.2.1.2.jar
+* res\ => userVoiceSDK\src\main\res\
+* src\ => userVoiceSDK\src\main\java\
+In ViewPagerIndicatorLibrary:
+* AndroidManifest.xml => viewPagerIndicatorLibrary\src\main\AndroidManifest.xml
+* assets\ => viewPagerIndicatorLibrary\src\main\assets\
+* res\ => viewPagerIndicatorLibrary\src\main\res\
+* src\ => viewPagerIndicatorLibrary\src\main\java\
+In bypass:
+* AndroidManifest.xml => bypass\src\main\AndroidManifest.xml
+* assets\ => bypass\src\main\assets\
+* jni\ => bypass\src\main\jni\
+* res\ => bypass\src\main\res\
+* src\ => bypass\src\main\java\
+In photolibrary:
+* AndroidManifest.xml => photolibrary\src\main\AndroidManifest.xml
+* assets\ => photolibrary\src\main\assets\
+* res\ => photolibrary\src\main\res\
+* src\ => photolibrary\src\main\java\
+In refreshactionitemlibrary:
+* AndroidManifest.xml => refreshactionitemlibrary\src\main\AndroidManifest.xml
+* assets\ => refreshactionitemlibrary\src\main\assets\
+* res\ => refreshactionitemlibrary\src\main\res\
+* src\ => refreshactionitemlibrary\src\main\java\
+In Discourse2:
+* AndroidManifest.xml => discourse2\src\main\AndroidManifest.xml
+* assets\ => discourse2\src\main\assets\
+* libs\GoogleAdMobAdsSdk-6.4.1.jar => discourse2\libs\GoogleAdMobAdsSdk-6.4.1.jar
+* libs\jsoup-1.7.2.jar => discourse2\libs\jsoup-1.7.2.jar
+* okhttp-src\ => discourse2\src\main\java\
+* other-src\ => discourse2\src\main\java\
+* res\ => discourse2\src\main\res\
+* retrofit-src\ => discourse2\src\main\java\
+* src\ => discourse2\src\main\java\
+* src-gen\ => discourse2\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

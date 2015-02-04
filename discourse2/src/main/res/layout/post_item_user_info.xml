@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/post_user_info_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <org.goodev.discourse.widget.BezelImageView
+        android:id="@+id/user_icon"
+        style="@style/SpeakerDetailImage"
+        android:contentDescription="@string/user_icon_des"
+        android:duplicateParentState="true"
+        android:src="@drawable/ic_person"
+        my:borderDrawable="@drawable/circle_border"
+        my:desaturateOnPress="true"
+        my:maskDrawable="@drawable/circle_mask"/>
+    <!--
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="@dimen/large_user_icon_size"
+        android:layout_height="@dimen/large_user_icon_size"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/user_icon_des"
+        android:src="@drawable/ic_person" />
+    -->
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/user_icon"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="User name"
+        android:textColor="@android:color/black"/>
+    <!--
+    <TextView
+        android:id="@+id/user_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/user_icon"
+        android:singleLine="true"
+        android:text="User title"
+        android:textColor="@android:color/black" />
+     -->
+
+    <TextView
+        android:id="@+id/post_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:text="7 May"/>
+
+    <TextView
+        android:id="@+id/modify_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/post_time"
+        android:drawableLeft="@drawable/ic_edit"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="7 "/>
+
+    <TextView
+        android:id="@+id/view_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/post_time"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:drawableLeft="@drawable/ic_view"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="7 "/>
+
+    <TextView
+        android:id="@+id/post_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_time"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_toLeftOf="@id/view_count"
+        android:drawableLeft="@drawable/ic_post"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="7 "/>
+
+</RelativeLayout>

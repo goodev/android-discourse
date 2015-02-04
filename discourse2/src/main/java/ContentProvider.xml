@@ -1,0 +1,5 @@
+Copy this code snippet in your AndroidManifest.xml inside the
+<application>element to activate the content provider
+
+    <provider android:authorities="org.goodev.discourse.provider.discourse" android:name="org.goodev.discourse.contentprovider.Provider"/>
+	

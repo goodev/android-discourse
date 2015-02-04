@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="a1525b64d15d841"
+        ads:loadAdOnCreate="false"
+        ads:testDevices="TEST_EMULATOR,72EAA8E59BF78A9672A6A7A45516F622"/>
+
+    <ImageView
+        android:id="@+id/close_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="5dp"
+        android:background="#88000000"
+        android:padding="4dp"
+        android:src="@drawable/ic_close"
+        android:visibility="invisible"/>
+
+</FrameLayout>

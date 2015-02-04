@@ -1,0 +1,53 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="emptyText">@style/EmptyText</item>
+        <item name="clickableItemBackground">@android:drawable/list_selector_background</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="activatableItemBackground">@drawable/activatable_item_background</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+    <!-- Empty views -->
+    <style name="EmptyText">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">#aaa</item>
+    </style>
+
+    <style name="SpeakerDetailImage">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_width">@dimen/speaker_image_size</item>
+        <item name="android:layout_height">@dimen/speaker_image_size</item>
+        <item name="android:layout_marginRight">@dimen/speaker_image_padding</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="user_actions_style" parent="android:Widget.Holo.Light.Button">
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/user_actions_color</item>
+        <item name="android:background">?attr/activatableItemBackground</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="social_login_style" parent="android:Widget.Holo.Light.Button">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/user_actions_color</item>
+        <item name="android:background">?attr/activatableItemBackground</item>
+    </style>
+</resources>

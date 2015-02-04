@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/private_msg"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/all_private_msg"
+        style="@style/user_actions_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/actions_transparent"
+        android:text="@string/all_private_msg"/>
+
+    <Button
+        android:id="@+id/mine_private_msg"
+        style="@style/user_actions_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/actions_transparent"
+        android:text="@string/mine_private_msg"/>
+
+    <Button
+        android:id="@+id/unread_private_msg"
+        style="@style/user_actions_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/actions_transparent"
+        android:text="@string/unread_private_msg"/>
+
+</LinearLayout>

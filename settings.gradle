@@ -1,0 +1,7 @@
+include ':changeLogLibrary', ':refreshactionitemlibrary', ':bypass'
+include ':discourseVolley'
+include ':fileExplorer'
+include ':userVoiceSDK'
+include ':viewPagerIndicatorLibrary'
+include ':photolibrary'
+include ':discourse2'

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="poster_name" type="id"></item>
+    <item name="poster_des" type="id"></item>
+    <item name="poste_image_data" type="id"></item>
+    <item name="poste_image_index" type="id"></item>
+    <item name="poste_image_getter" type="id"></item>
+    <item name="poste_image_container" type="id"></item>
+</resources>

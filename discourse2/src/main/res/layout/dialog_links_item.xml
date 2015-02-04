@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:minHeight="?android:attr/listPreferredItemHeightSmall"
+              android:orientation="horizontal"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp">
+
+    <TextView
+        android:id="@+id/links_click_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/links_count_bg"
+        android:gravity="center"
+        android:minEms="2"
+        android:padding="4dp"
+        android:textColor="@color/dialog_links_clicks_txt_color"
+        />
+
+    <TextView
+        android:id="@+id/links_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:maxLines="2"
+        />
+
+
+</LinearLayout>

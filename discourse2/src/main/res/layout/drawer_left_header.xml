@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/site_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:drawable/divider_horizontal_bright"
+        android:dividerPadding="@dimen/divider_padding"
+        android:orientation="vertical"
+        android:showDividers="middle">
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+
+    <RelativeLayout
+        android:id="@+id/user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/clickableItemBackground"
+        android:clickable="true"
+        android:paddingLeft="@dimen/drawer_content_padding">
+
+        <ImageView
+            android:id="@+id/user_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/user_icon_margin"
+            android:contentDescription="@string/user_icon_des"
+            android:src="@drawable/ic_person"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/user_icon"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:text="@string/not_login"
+            android:textSize="@dimen/user_name_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/user_login_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_name"
+            android:layout_toRightOf="@+id/user_icon"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:text="@string/click_to_login"/>
+    </RelativeLayout>
+</LinearLayout>

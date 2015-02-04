@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        />
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_title_hint"
+        android:inputType="none"
+        android:maxLines="2">
+
+        <requestFocus/>
+    </EditText>
+
+    <Spinner
+        android:id="@+id/edit_categories_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_quote_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_quote_post_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/comment_alt"
+            android:visibility="gone"/>
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_bold_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/bold"/>
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_italic_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/italic"/>
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_link_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/link"/>
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_quote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_quote_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/quote_right"/>
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_code_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/code"/>
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_upload_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/picture"/>
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_list_ol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_list_ol_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/list_ol"/>
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_list_ul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_list_ul_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/list_ul"/>
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_header_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/font"/>
+
+        <org.goodev.discourse.widget.HintedImageBtn
+            android:id="@+id/e_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/post_action_bg"
+            android:contentDescription="@string/e_divider_cd"
+            android:paddingBottom="@dimen/editor_action_padding"
+            android:paddingTop="@dimen/editor_action_padding"
+            android:src="@drawable/minus"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <org.goodev.widget.MdEditText
+        android:id="@+id/edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/e_content_hint"
+        android:inputType="none"
+        android:singleLine="false"/>
+
+</LinearLayout>

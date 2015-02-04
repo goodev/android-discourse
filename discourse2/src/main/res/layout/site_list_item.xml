@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:descendantFocusability="blocksDescendants">
+
+    <ImageButton
+        android:id="@+id/site_add_user"
+        android:layout_width="54dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="?attr/clickableItemBackground"
+        android:contentDescription="@string/add_user"
+        android:src="@drawable/ic_add_account"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="34dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/site_add_user"
+        android:background="@color/divider"/>
+
+    <ImageButton
+        android:id="@+id/delete_site"
+        android:layout_width="54dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/divider"
+        android:background="?attr/clickableItemBackground"
+        android:contentDescription="@string/delete_site"
+        android:src="@drawable/ic_delete_site"/>
+
+    <TextView
+        android:id="@+id/site_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:layout_toLeftOf="@id/delete_site"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceListItem"/>
+
+    <TextView
+        android:id="@+id/site_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/site_name"
+        android:layout_below="@id/site_name"
+        android:layout_toLeftOf="@id/divider"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+</RelativeLayout>

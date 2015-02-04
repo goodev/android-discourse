@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/prefer_click_item_height"
+                android:background="?android:attr/activatedBackgroundIndicator">
+
+    <View
+        android:id="@+id/category_color"
+        android:layout_width="@dimen/category_item_color_width"
+        android:layout_height="@dimen/category_item_color_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/drawer_content_padding"
+        android:textSize="@dimen/list_item_text_large"/>
+
+</RelativeLayout>

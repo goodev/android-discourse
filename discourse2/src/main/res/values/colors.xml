@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drawer_background">#F3F3F3</color>
+    <color name="divider">#BEBEBE</color>
+    <color name="actioin_bar_bg">#DDDDDD</color>
+    <color name="poster_popup_text_color">#FFFFFF</color>
+    <color name="category_list_item_bg">#e0e0e0</color>
+    <color name="topics_item_time_bg">#FFB3B5B4</color>
+
+    <color name="post_action_pressed">#CC33B5E5</color>
+    <color name="dialog_links_clicks_bg">#d2d2d2</color>
+    <color name="dialog_links_clicks_txt_color">#FFFFFF</color>
+    <color name="user_actions_color">#0081B0</color>
+    <color name="suggest_topic_header_bg">#BEBEBE</color>
+</resources>

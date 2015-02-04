@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location">地址</string>
+    <string name="cant_read_folder">无法读取该文件夹</string>
+    <string name="nnew">新文件夹</string>
+    <string name="select">选择</string>
+    <string name="file_name">文件夹名称:</string>
+    <string name="cancel">取消</string>
+    <string name="create">保存</string>
+    <string name="no_data">没有数据</string>
+    <color name="gray">#ffff0000</color>
+    <string name="err">出错啦</string>
+    <string name="checkbox">使用该目录作为默认目录</string>
+</resources>

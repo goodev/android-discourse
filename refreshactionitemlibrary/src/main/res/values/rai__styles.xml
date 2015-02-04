@@ -1,0 +1,30 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Widget">
+    </style>
+
+    <style name="Widget.RefreshActionItem">
+        <item name="refreshActionItemBackground">?attr/android:actionBarItemBackground</item>
+        <item name="badgeBackgroundColor">#CF00</item>
+        <item name="badgeTextStyle">@style/Widget.RefreshActionItem.TextAppearance</item>
+        <item name="badgePosition">topRight</item>
+    </style>
+
+    <style name="Widget.RefreshActionItem.TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="Widget.RefreshActionItem.Light">
+        <item name="progressIndicatorForegroundColor">#9333</item>
+        <item name="progressIndicatorBackgroundColor">#1333</item>
+        <item name="refreshActionItemIcon">@drawable/ic_navigation_refresh_light</item>
+    </style>
+
+    <style name="Widget.RefreshActionItem.Dark">
+        <item name="progressIndicatorForegroundColor">#CFFF</item>
+        <item name="progressIndicatorBackgroundColor">#3FFF</item>
+        <item name="refreshActionItemIcon">@drawable/ic_navigation_refresh_dark</item>
+    </style>
+
+</resources>

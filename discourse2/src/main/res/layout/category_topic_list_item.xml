@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/category_topic_item_height"
+                android:paddingLeft="@dimen/list_item_padding_horizontal"
+                android:paddingRight="@dimen/list_item_padding_horizontal">
+
+    <TextView
+        android:id="@+id/topic_first_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@color/topics_item_time_bg"
+        android:gravity="right"
+        android:minWidth="@dimen/topic_item_time_width"
+        android:singleLine="true"
+        android:text="22 May"
+        android:textSize="@dimen/topic_item_time_size"/>
+
+    <TextView
+        android:id="@+id/topic_posts_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/topic_first_time"
+        android:background="@color/topics_item_time_bg"
+        android:paddingLeft="@dimen/topic_item_category_padding"
+        android:paddingRight="@dimen/topic_item_category_padding"
+        android:singleLine="true"
+        android:text="22"
+        android:textSize="@dimen/topic_item_time_size"/>
+
+    <TextView
+        android:id="@+id/topic_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/topic_posts_count"
+        android:gravity="center_vertical"
+        android:lines="2"
+        android:maxLines="3"
+        android:text="What is the most awesome plugin for Discourse, that does not yet exist? that does not yet exist? that does not yet exist?"
+        android:textSize="@dimen/category_topic_title_size"/>
+
+</RelativeLayout>

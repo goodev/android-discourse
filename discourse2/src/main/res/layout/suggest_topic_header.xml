@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/suggest_topic_header"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/suggest_topic_header_bg"
+    android:padding="@dimen/list_item_padding_horizontal"
+    android:text="@string/suggested_topics"
+    android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+    android:textStyle="bold"
+    >
+
+</TextView>

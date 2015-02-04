@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_post_flag"
+        android:icon="@drawable/ic_flag"
+        android:orderInCategory="50"
+        android:showAsAction="withText"
+        android:title="@string/menu_flag"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/menu_post_delete"
+        android:icon="@drawable/ic_delete"
+        android:orderInCategory="60"
+        android:title="@string/menu_post_delete"
+        />
+    <item
+        android:id="@+id/menu_post_links"
+        android:icon="@drawable/ic_link"
+        android:orderInCategory="70"
+        android:title="@string/menu_links"
+        />
+    <item
+        android:id="@+id/menu_post_bookmark"
+        android:checkable="true"
+        android:icon="@drawable/ic_bookmark"
+        android:orderInCategory="80"
+        android:title="@string/menu_bookmark"
+        />
+    <item
+        android:id="@+id/menu_poster_count"
+        android:icon="@drawable/ic_poster"
+        android:orderInCategory="90"
+        android:title="@string/menu_poster_count"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/menu_replay_new"
+        android:icon="@drawable/ic_replay_new_black"
+        android:orderInCategory="100"
+        android:title="@string/menu_replay_new"
+        android:visible="false"
+        />
+
+</menu>

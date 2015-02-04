@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/category_topic_item_height"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="@color/category_list_item_bg"
+        android:paddingLeft="@dimen/list_item_padding_horizontal"
+        android:paddingRight="@dimen/list_item_padding_horizontal">
+
+        <TextView
+            android:id="@+id/category_topics_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_empty_36"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/topic_item_category_padding"
+            android:paddingRight="@dimen/topic_item_category_padding"
+            android:text="15 年1 月0 周"
+            android:textSize="@dimen/topic_item_time_size"/>
+
+        <TextView
+            android:id="@+id/category_view_all_topics"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/ic_empty_36"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/topic_item_category_padding"
+            android:paddingRight="@dimen/topic_item_category_padding"
+            android:text="浏览全部 15 ……"
+            android:textSize="@dimen/topic_item_time_size"/>
+    </RelativeLayout>
+
+</LinearLayout>

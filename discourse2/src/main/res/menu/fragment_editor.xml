@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_send"
+        android:icon="@drawable/ic_action_send"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_send"
+        />
+    <item
+        android:id="@+id/action_preview"
+        android:icon="@drawable/ic_action_preview"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_preview"
+        android:visible="true"
+        />
+    <!--
+    <item android:id="@+id/action_discard"
+       android:showAsAction="never"
+       android:visible="false"
+       android:title="@string/action_discard"
+       />
+     -->
+
+</menu>

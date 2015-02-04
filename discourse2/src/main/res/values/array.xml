@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notifications_title">
+        <item>Muted</item>
+        <item>Regular</item>
+        <item>Tracking</item>
+        <item>Watching</item>
+    </string-array>
+    <string-array name="notifications_des">
+        <item>You are ignoring all notifications on this topic.</item>
+        <item>You will be notified only if someone mentions your @name or replies to your post.</item>
+        <item>You will receive notifications because you read this topic.</item>
+        <item>You will receive notifications because you are watching this topic.</item>
+    </string-array>
+    <string-array name="notifications_des1">
+        <item>you will not be notified of anything about this topic, and it will not appear on your unread tab. </item>
+        <item>you will be notified only if someone mentions your @name or replies to your post.</item>
+        <item>you will be notified of @name mentions and replies to your posts, plus you will see a count of unread and new posts.</item>
+        <item>same as Tracking, plus you will be notified of all new posts.</item>
+    </string-array>
+    <integer-array name="notifications_level">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <!-- "trust_levels":[{"id":0,"name":"new user"},{"id":1,"name":"basic user"},{"id":2,"name":"regular user"},{"id":3,"name":"leader"},{"id":4,"name":"elder"}] -->
+    <string-array name="trust_levels">
+        <item>new user</item>
+        <item>basic user</item>
+        <item>regular user</item>
+        <item>leader</item>
+        <item>elder</item>
+    </string-array>
+</resources>

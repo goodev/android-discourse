@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="md_bold_text">strong text</string>
+    <string name="md_italic_text">emphasized text</string>
+</resources>

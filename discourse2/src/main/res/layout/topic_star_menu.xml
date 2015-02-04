@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox
+    android:id="@+id/topic_star"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="?attr/clickableItemBackground"
+    android:button="@drawable/star_selector_drawable"
+    android:gravity="center"
+    android:minWidth="48dp"
+    android:padding="4dp"
+    >
+
+</CheckBox>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.manuelpeinado.refreshactionitem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="4"
+    android:versionName="1.0.3">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17"/>
+
+</manifest>

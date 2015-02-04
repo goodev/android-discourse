@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notifications_title">
+        <item>防打扰</item>
+        <item>常规</item>
+        <item>追踪</item>
+        <item>关注</item>
+    </string-array>
+    <string-array name="notifications_des">
+        <item>你将忽略关于此主题的所有通知。</item>
+        <item>只有他人 @name 提及了你或回复了你的帖子时，你才会收到相关通知。</item>
+        <item>因为你阅读了此主题，所以你将收到相关通知。</item>
+        <item>因为你在关注此主题，所以你将收到相关通知。</item>
+    </string-array>
+    <string-array name="notifications_des1">
+        <item>you will not be notified of anything about this topic, and it will not appear on your unread tab. </item>
+        <item>you will be notified only if someone mentions your @name or replies to your post.</item>
+        <item>you will be notified of @name mentions and replies to your posts, plus you will see a count of unread and new posts.</item>
+        <item>same as Tracking, plus you will be notified of all new posts.</item>
+    </string-array>
+    <string-array name="trust_levels">
+        <item>访客</item>
+        <item>初级用户</item>
+        <item>常规用户</item>
+        <item>领先用户</item>
+        <item>资深用户</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <org.goodev.discourse.photos.HackyViewPager
+        android:id="@+id/content_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        tools:context=".PhotosActivity">
+    </org.goodev.discourse.photos.HackyViewPager>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/titles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="10dip"
+        app:fillColor="@android:color/black"
+        app:strokeColor="@android:color/darker_gray"/>
+
+    <include
+        android:id="@+id/init_photo_layout"
+        layout="@layout/photo_layout"
+        android:visibility="gone"/>
+</merge>

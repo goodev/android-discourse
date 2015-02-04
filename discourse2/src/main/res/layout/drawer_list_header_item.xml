@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    style="?android:attr/listSeparatorTextViewStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingEnd="@dimen/preference_item_padding_side"
+    android:paddingLeft="@dimen/drawer_content_padding"
+    android:text="@string/drawer_categories_title"
+    android:textAllCaps="true">
+
+</TextView>
