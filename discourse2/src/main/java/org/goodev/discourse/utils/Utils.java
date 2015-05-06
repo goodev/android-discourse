@@ -287,6 +287,10 @@ public class Utils {
             return GRAVATAR_HTTP_PREFIX + template;
         }
 
+        if(!template.startsWith(App.getSiteUrl())) {
+            template = App.getSiteUrl() + template;
+        }
+
         return template.replace(GRAVATAR_SIZE, size + "");
     }
 
